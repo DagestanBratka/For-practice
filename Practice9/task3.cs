@@ -43,7 +43,7 @@ namespace ConsoleApp42
     {
         private string owner;
         private double balance;
-        public BankAccount(string Owner, int Balance)
+        public BankAccount(string Owner, double Balance)
         {
             owner = Owner;
             balance = Balance;
@@ -84,4 +84,5 @@ namespace ConsoleApp42
             get { return balance; }
         }
     }
+
 }
